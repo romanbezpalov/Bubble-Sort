@@ -12,6 +12,7 @@
 		E01A7A342090CF6C0065EA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01A7A322090CF6C0065EA2D /* Main.storyboard */; };
 		E01A7A362090CF6C0065EA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01A7A352090CF6C0065EA2D /* Assets.xcassets */; };
 		E01A7A392090CF6C0065EA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01A7A372090CF6C0065EA2D /* LaunchScreen.storyboard */; };
+		E06F875720960E4000D1B613 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F875620960E4000D1B613 /* BubbleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E01A7A352090CF6C0065EA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01A7A382090CF6C0065EA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01A7A3A2090CF6C0065EA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06F875620960E4000D1B613 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E01A7A2E2090CF6C0065EA2D /* AppDelegate.swift */,
 				E01A7A302090CF6C0065EA2D /* ViewController.swift */,
+				E06F875620960E4000D1B613 /* BubbleSort.swift */,
 				E01A7A322090CF6C0065EA2D /* Main.storyboard */,
 				E01A7A352090CF6C0065EA2D /* Assets.xcassets */,
 				E01A7A372090CF6C0065EA2D /* LaunchScreen.storyboard */,
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E01A7A262090CF6C0065EA2D /* Build configuration list for PBXProject "Bubble Sort1" */;
+			buildConfigurationList = E01A7A262090CF6C0065EA2D /* Build configuration list for PBXProject "BubbleSort1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,6 +140,7 @@
 			files = (
 				E01A7A312090CF6C0065EA2D /* ViewController.swift in Sources */,
 				E01A7A2F2090CF6C0065EA2D /* AppDelegate.swift in Sources */,
+				E06F875720960E4000D1B613 /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E01A7A262090CF6C0065EA2D /* Build configuration list for PBXProject "Bubble Sort1" */ = {
+		E01A7A262090CF6C0065EA2D /* Build configuration list for PBXProject "BubbleSort1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E01A7A3B2090CF6C0065EA2D /* Debug */,
