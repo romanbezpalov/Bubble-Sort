@@ -9,17 +9,14 @@
 import Foundation
 
 
-class BubbleSort {
+open class BubbleSort {
     
-    static func bubbleSort(dataArray:Array<Int>) -> (Array<Array<Int>>,Int) {
-        
-            var interestingArray = [dataArray]
-            var calculator = 0
+    static func bubbleSort(dataArray:Array<Int>) -> (Array<Int>) {
+    
             var numberArray = dataArray
             let count:Int = numberArray.count
             for i in 0..<count - 1 {
                 for j in 0..<count - 1 - i {
-                    calculator = calculator-1
                     var tempoObj = numberArray[j]
                     if (numberArray[j]) > numberArray[j+1] {
                         tempoObj = numberArray[j+1]
@@ -27,10 +24,10 @@ class BubbleSort {
                         numberArray[j] = tempoObj
                     }
 
-                        interestingArray.append(numberArray)
+                    
                 }
             }
-        return (interestingArray,calculator)
+        return (numberArray)
         
     }
 }

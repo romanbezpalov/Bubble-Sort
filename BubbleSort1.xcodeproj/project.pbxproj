@@ -13,7 +13,19 @@
 		E01A7A362090CF6C0065EA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01A7A352090CF6C0065EA2D /* Assets.xcassets */; };
 		E01A7A392090CF6C0065EA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01A7A372090CF6C0065EA2D /* LaunchScreen.storyboard */; };
 		E06F875720960E4000D1B613 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F875620960E4000D1B613 /* BubbleSort.swift */; };
+		E0A5C52C20977FBC00DB9D6D /* Bubble_Sort1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5C52B20977FBC00DB9D6D /* Bubble_Sort1Tests.swift */; };
+		E0A5C53D209783A900DB9D6D /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F875620960E4000D1B613 /* BubbleSort.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0A5C5332097813700DB9D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E01A7A232090CF6C0065EA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E01A7A2A2090CF6C0065EA2D;
+			remoteInfo = "Bubble Sort1";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E01A7A2B2090CF6C0065EA2D /* Bubble Sort1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bubble Sort1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +36,20 @@
 		E01A7A382090CF6C0065EA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01A7A3A2090CF6C0065EA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E06F875620960E4000D1B613 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		E0A5C52920977FBC00DB9D6D /* Bubble Sort1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bubble Sort1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A5C52B20977FBC00DB9D6D /* Bubble_Sort1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble_Sort1Tests.swift; sourceTree = "<group>"; };
+		E0A5C52D20977FBC00DB9D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E01A7A282090CF6C0065EA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A5C52620977FBC00DB9D6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				E01A7A2D2090CF6C0065EA2D /* Bubble Sort1 */,
+				E0A5C52A20977FBC00DB9D6D /* Bubble Sort1Tests */,
 				E01A7A2C2090CF6C0065EA2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				E01A7A2B2090CF6C0065EA2D /* Bubble Sort1.app */,
+				E0A5C52920977FBC00DB9D6D /* Bubble Sort1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +89,15 @@
 				E01A7A3A2090CF6C0065EA2D /* Info.plist */,
 			);
 			name = "Bubble Sort1";
+			sourceTree = "<group>";
+		};
+		E0A5C52A20977FBC00DB9D6D /* Bubble Sort1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5C52B20977FBC00DB9D6D /* Bubble_Sort1Tests.swift */,
+				E0A5C52D20977FBC00DB9D6D /* Info.plist */,
+			);
+			path = "Bubble Sort1Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +120,24 @@
 			productReference = E01A7A2B2090CF6C0065EA2D /* Bubble Sort1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E0A5C52820977FBC00DB9D6D /* Bubble Sort1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A5C53220977FBC00DB9D6D /* Build configuration list for PBXNativeTarget "Bubble Sort1Tests" */;
+			buildPhases = (
+				E0A5C52520977FBC00DB9D6D /* Sources */,
+				E0A5C52620977FBC00DB9D6D /* Frameworks */,
+				E0A5C52720977FBC00DB9D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0A5C5342097813700DB9D6D /* PBXTargetDependency */,
+			);
+			name = "Bubble Sort1Tests";
+			productName = "Bubble Sort1Tests";
+			productReference = E0A5C52920977FBC00DB9D6D /* Bubble Sort1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +150,10 @@
 				TargetAttributes = {
 					E01A7A2A2090CF6C0065EA2D = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					E0A5C52820977FBC00DB9D6D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E01A7A2A2090CF6C0065EA2D;
 					};
 				};
 			};
@@ -116,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				E01A7A2A2090CF6C0065EA2D /* Bubble Sort1 */,
+				E0A5C52820977FBC00DB9D6D /* Bubble Sort1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +184,13 @@
 				E01A7A392090CF6C0065EA2D /* LaunchScreen.storyboard in Resources */,
 				E01A7A362090CF6C0065EA2D /* Assets.xcassets in Resources */,
 				E01A7A342090CF6C0065EA2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A5C52720977FBC00DB9D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +207,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0A5C52520977FBC00DB9D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A5C52C20977FBC00DB9D6D /* Bubble_Sort1Tests.swift in Sources */,
+				E0A5C53D209783A900DB9D6D /* BubbleSort.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0A5C5342097813700DB9D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E01A7A2A2090CF6C0065EA2D /* Bubble Sort1 */;
+			targetProxy = E0A5C5332097813700DB9D6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E01A7A322090CF6C0065EA2D /* Main.storyboard */ = {
@@ -316,6 +396,46 @@
 			};
 			name = Release;
 		};
+		E0A5C53020977FBC00DB9D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 675BZ3CP8P;
+				INFOPLIST_FILE = "Bubble Sort1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bezpalov.Bubble-Sort1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bubble Sort1.app/Bubble Sort1";
+			};
+			name = Debug;
+		};
+		E0A5C53120977FBC00DB9D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 675BZ3CP8P;
+				INFOPLIST_FILE = "Bubble Sort1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bezpalov.Bubble-Sort1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bubble Sort1.app/Bubble Sort1";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +453,15 @@
 			buildConfigurations = (
 				E01A7A3E2090CF6C0065EA2D /* Debug */,
 				E01A7A3F2090CF6C0065EA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A5C53220977FBC00DB9D6D /* Build configuration list for PBXNativeTarget "Bubble Sort1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A5C53020977FBC00DB9D6D /* Debug */,
+				E0A5C53120977FBC00DB9D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

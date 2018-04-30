@@ -17,9 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let array = [3,6,9,5,2,1,4,7,10,8]
-        let sortedTuple = BubbleSort.bubbleSort(dataArray: array)
+        let sortedArray = BubbleSort.bubbleSort(dataArray: array)
         self.originalDataLable.text = String(describing: array)
-     self.sortingTextView.text = String(describing: sortedTuple.0) + "\n" + "total\(sortedTuple.1) times"
+        self.sortingTextView.text = String(describing: sortedArray)
+
   
     }
     
